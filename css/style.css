@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: #979998;
+}
+
+.button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #3f61c3;
+  font-size: 23px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 650px;
+  right: 45vw;
+  border: black solid 1px;
+}
+
+/*canvas{
+  border: black solid 1px;
+}*/

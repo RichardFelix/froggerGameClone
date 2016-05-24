@@ -1,6 +1,23 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frogger Clone
 
-Students should use this [rubric](https://www.udacity.com/course/viewer/#!/c-nd001/l-2696458597/m-2687128535) for self-checking their submission.
+## How to install game
+- Download or clone repo
+- Open folder
+- Open index.html in your favorite browser
+- Enjoy!!!
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to play game
+
+#### Object of the Game
+- Dodge bugs on the road
+- Get player to the Grass on other side of the road in all 5 open spots
+- Go to next level
+
+#### Player Movements
+- Keyboard arrow keys are used to move player around
+
+#### Game Mechanics
+- Every collision player has with a enemy will decrease his hearts
+- If hearts go down to 0 you lose 
+- Each level has more enemies good luck your going to need it
+- Start button does two things resets the game and allows player to get to next level if you get to the win screen

@@ -1,5 +1,8 @@
 # Frogger Clone
 
+## Live Link
+[http://richardfelix.github.io/froggerGameClone/](http://richardfelix.github.io/froggerGameClone/)
+
 ## How to install game
 - Download or clone repo
 - Open folder
@@ -15,9 +18,10 @@
 
 #### Player Movements
 - Keyboard arrow keys are used to move player around
+- Buttons keys will also move player arround
 
 #### Game Mechanics
 - Every collision player has with a enemy will decrease his hearts
-- If hearts go down to 0 you lose 
+- If hearts go down to 0 you lose
 - Each level has more enemies good luck your going to need it
 - Start button does two things resets the game and allows player to get to next level if you get to the win screen

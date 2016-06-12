@@ -276,6 +276,7 @@ for( var x = 0; x < 3; x++ ) {
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
 document.addEventListener('keyup', function(e) {
+
     var allowedKeys = {
         37: 'left',
         38: 'up',
@@ -285,6 +286,25 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
+///////////////////////////////////////////
+//          Button listenting           //
+//////////////////////////////////////////
+function up(){
+  player.handleInput('up');
+}
+
+function right(){
+  player.handleInput('right');
+}
+
+function left(){
+  player.handleInput('left');
+}
+
+function down(){
+  player.handleInput('down');
+}
 
 ///////////////////////////////////////////
 //        Levels    CLass               //
